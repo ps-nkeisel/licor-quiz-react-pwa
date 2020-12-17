@@ -1,0 +1,52 @@
+* {
+  font-family: "Hurme Geometric", sans-serif;
+}
+.title-big {
+  font-weight: bold;
+  font-size: 4.8vh;
+  color: $color-yellow;
+  line-height: 1;
+  span {
+    display: block;
+    color: #fff;
+  }
+}
+
+.entry-content {
+  font-size: 16px;
+  color: #1c1c1c;
+  b,
+  strong {
+    font-weight: 500;
+  }
+  ol {
+    li {
+      margin-left: 15px;
+      margin-bottom: 15px;
+    }
+  }
+  p {
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    &:last-of-type {
+      margin-bottom: 20px;
+    }
+  }
+}
+.title-small {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 20;
+  font-weight: bold;
+  color: #f3e03a;
+  span {
+    color: white;
+  }
+}
+.centered {
+  text-align: center;
+}
+.yellow {
+  color: #f3e03a;
+}

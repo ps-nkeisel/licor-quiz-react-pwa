@@ -1,0 +1,31 @@
+.quiz-ranking {
+    margin-bottom: 20px;
+}
+.quiz-ranking__item {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #f3e03a;
+    border-bottom: 2px dotted #f3e03a;
+    &:last-child {
+        border-bottom: none;
+    }
+}
+.quiz-ranking__item-text {
+    font-size: 22px;
+    line-height: 1;
+    padding-left: 8px;
+}
+.quiz-ranking__item-points {
+    display: block;
+    width: 60px;
+    padding: 5px;
+    margin: 8px 8px 8px auto;
+    border-radius: 10px;
+    background-color: #f3e03a;
+    color: #000;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1;
+}

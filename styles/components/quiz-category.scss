@@ -1,0 +1,27 @@
+.quiz-category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.quiz-category__item {
+  width: 47%;
+  text-align: center;
+  color: #f3e03a;
+  margin-bottom: 30px;
+}
+.quiz-category__item-img {
+  background-color: #f3e03a;
+  width: 118px;
+  height: 118px;
+  margin: 0 auto 7px;
+  border-radius: 50%;
+}
+.quiz-category__item-text {
+  display: block;
+  width: 96%;
+  margin: 0 auto;
+  font-size: 22px;
+  line-height: 1;
+  color: #f3e03a;
+}

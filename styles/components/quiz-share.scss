@@ -1,0 +1,39 @@
+.quiz-share {
+  margin: 70px 0 50px 0;
+}
+.quiz-share__code {
+  display: flex;
+  justify-content: center;
+}
+.quiz-share__code-number {
+  display: block;
+  width: 50px;
+  text-align: center;
+  background-color: #f3e03a;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 5px;
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 1;
+}
+.quiz-share__text {
+  margin-top: 40px;
+  text-align: center;
+  color: #f3e03a;
+  span {
+    display: block;
+    line-height: 1;
+  }
+  a {
+    color: #fff;
+    line-height: 1;
+    &:hover {
+    }
+  }
+  .quiz-share__text--status {
+    margin-top: 30px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}

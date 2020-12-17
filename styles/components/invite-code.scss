@@ -1,0 +1,17 @@
+.invite-code {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    input {
+        background-color: transparent !important;
+        border: 2px solid #f3e03a !important;
+        transition: .3s ease-in !important;
+        color: #f3e03a !important;
+        padding-left: 0 !important;
+        text-align: center !important;
+        &:focus {
+            outline: none !important;
+            border: 2px solid #fff !important;
+        }
+    }
+}

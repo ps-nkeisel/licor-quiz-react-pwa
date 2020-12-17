@@ -1,0 +1,69 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  overflow: hidden;
+  line-height: 1.5;
+}
+#app {
+  overflow: hidden;
+  height: 100%;
+}
+.page {
+  // min-height: -webkit-fill-available;
+  // display: flex;
+  // flex-direction: column;
+  // overflow: hidden;
+}
+
+.bgc-black {
+  background-color: $bg-color;
+  padding-top: 5px;
+}
+.bgc-grey {
+  background-color: $grey;
+}
+.mba {
+  margin-bottom: auto;
+}
+.container {
+  padding: 0 30px;
+  position: relative;
+  z-index: 2;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+.error-wrapper {
+  padding: 10px;
+  background-color: #ffcccc;
+  margin-bottom: 15px;
+  .error-msg {
+  }
+}
+.Toastify__toast--warning {
+  background: #f3e03a !important;
+}
+@media only screen and (orientation: landscape) {
+  #app::before {
+    content: 'Please rotate your device';
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f3e03a;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 10;
+  }
+}

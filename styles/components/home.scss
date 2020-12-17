@@ -1,0 +1,73 @@
+@import "../base//variables";
+
+.welcome-layout {
+  height: 385px;
+  padding-top: 5px;
+  background-image: url("/static/img/welcome-bg.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.footer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 67px;
+    margin: 0 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid $color-yellow;
+  }
+}
+
+// OLD FOOTER
+// .footer {
+//   // flex: 1;
+//   display: grid;
+//   grid-template-columns: repeat(3, 1fr);
+//   grid-gap: 10px;
+//   margin-top: 5px;
+//   height: calc(60vh - 125px);
+
+//   .footer_right {
+//     position: relative;
+//     grid-column: span 2;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: space-around;
+//     padding: 1rem 1.5rem 1rem 1rem;
+
+//     .footer_right-content {
+//       position: relative;
+//       span.footer_right-content--text {
+//         color: $color-yellow;
+//         font-size: 12px;
+//         display: block;
+//         text-align: center;
+//       }
+
+//       .footer_right-content--language {
+//         display: flex;
+
+//         img {
+//           flex: 1;
+//           width: 48px;
+//           border-radius: 50%;
+//           -webkit-border-radius: 50%;
+//           -moz-border-radius: 50%;
+//           -ms-border-radius: 50%;
+//           -o-border-radius: 50%;
+//           border: 2px solid $color-yellow;
+//           margin: 8px;
+//         }
+//       }
+//     }
+//   }
+// }

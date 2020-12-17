@@ -1,0 +1,202 @@
+.register-form,
+.event-form {
+  margin-bottom: 30px;
+  input[type='password'] {
+    letter-spacing: 5px;
+    &::placeholder {
+      letter-spacing: 0;
+      color: #777777;
+    }
+  }
+}
+.sign-in-form {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  input:not([type='submit']) {
+    margin-bottom: 60px;
+  }
+}
+.sign-in-form__wrap {
+  margin-bottom: 140px;
+}
+
+.register-form__inputs,
+.event-form__inputs {
+  margin-bottom: 30px;
+}
+.register-form__input-wrap,
+.event-form__input-wrap {
+  position: relative;
+  input {
+    display: block;
+    width: 100%;
+    max-height: 45px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid #f3e03a;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.3s ease;
+    color: white;
+    &:focus {
+      outline: none;
+      border: 2px solid white;
+      &::placeholder {
+        color: white;
+      }
+    }
+    &::placeholder {
+      color: #777777;
+      transition: 0.3s ease-in;
+    }
+  }
+  .react-datepicker__day--selected,
+  .react-datepicker__day--in-selecting-range,
+  .react-datepicker__day--in-range,
+  .react-datepicker__month-text--selected,
+  .react-datepicker__month-text--in-selecting-range,
+  .react-datepicker__month-text--in-range,
+  .react-datepicker__quarter-text--selected,
+  .react-datepicker__quarter-text--in-selecting-range,
+  .react-datepicker__quarter-text--in-range {
+    background-color: #f3e03a;
+    color: #000;
+  }
+  .input-icon {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 25px;
+  }
+  .input-clock {
+  }
+  .input-clock {
+  }
+}
+.input:not([type='submit']) {
+  display: block;
+  width: 100%;
+  min-height: 45px;
+  margin-bottom: 15px;
+  padding: 8px 15px;
+  background-color: transparent;
+  border: 2px solid #f3e03a;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  transition: 0.3s ease;
+  color: white;
+  &:focus {
+    outline: none;
+    border: 2px solid white;
+    &::placeholder {
+      color: white;
+    }
+  }
+  &::placeholder {
+    color: #777777;
+    transition: 0.3s ease-in;
+  }
+}
+.input--white:not([type='submit']) {
+  border: 2px solid #fff;
+}
+.input--mb-25:not([type='submit']) {
+  margin-bottom: 25px;
+}
+.input--border-bottom:not([type='submit']) {
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #f3e03a;
+  box-shadow: none;
+  &:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 2px solid white;
+  }
+}
+// Custom Checkbox
+
+.checkbox__label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 15px;
+  color: #f3e03a;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.checkbox__checkmark {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: 1px solid #f3e03a;
+  border-radius: 4px;
+}
+.checkbox__label--sm {
+  font-size: 11px;
+  .checkbox__checkmark {
+    top: -5px;
+  }
+}
+.checkbox__label:hover input ~ .checkbox__checkmark {
+  background-color: transparent;
+}
+.checkbox__label input:checked ~ .checkbox__checkmark {
+  background-color: #f3e03a;
+}
+.checkbox__checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.checkbox__label input:checked ~ .checkbox__checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox__label .checkbox__checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.react-datepicker-wrapper {
+  width: 100%;
+}
+.form-quiz {
+  margin: 100px 0 140px;
+}
+.join-form {
+  margin-bottom: 30px;
+}
+.event-setup-form {
+  margin-bottom: 40%;
+}

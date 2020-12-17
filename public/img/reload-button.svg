@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83.229" height="83.625" viewBox="0 0 83.229 83.625">
+  <defs>
+    <filter id="Ellipse_242" x="0" y="0" width="83.229" height="83.625" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_157" data-name="Group 157" transform="translate(-250.453 -550.582)">
+    <g id="Group_155" data-name="Group 155" transform="translate(-6657.866 -677.893)">
+      <g id="Group_156" data-name="Group 156">
+        <g transform="matrix(1, 0, 0, 1, 6908.32, 1228.47)" filter="url(#Ellipse_242)">
+          <ellipse id="Ellipse_242-2" data-name="Ellipse 242" cx="35.615" cy="35.813" rx="35.615" ry="35.813" transform="translate(9 2)" fill="#3ca4ef"/>
+        </g>
+      </g>
+    </g>
+    <path id="Icon_open-reload" data-name="Icon open-reload" d="M18.387,0A18.387,18.387,0,1,0,31.441,31.441l-3.31-3.31A13.8,13.8,0,1,1,18.341,4.6,13.372,13.372,0,0,1,27.948,8.78l-5.01,5.01h13.79V0l-5.47,5.47A18.284,18.284,0,0,0,18.341,0Z" transform="translate(277 570.227)" fill="#fff"/>
+  </g>
+</svg>

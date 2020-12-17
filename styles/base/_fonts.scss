@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Hurme Geometric';
+  src: local('Hurme Geometric'),
+    url('/static/fonts/hurmegeometricsans4_bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hurme Geometric';
+  src: local('Hurme Geometric'),
+    url('/static/fonts/hurmegeometricsans4_light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hurme Geometric';
+  src: local('Hurme Geometric'),
+    url('/static/fonts/hurmegeometricsans4_semibold-webfont.woff')
+      format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hurme Geometric';
+  src: local('Hurme Geometric'),
+    url('/static/fonts/hurmegeometricsans4-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('/static/fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/static/fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}

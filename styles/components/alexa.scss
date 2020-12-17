@@ -1,0 +1,26 @@
+.alexa-list {
+  list-style-type: none;
+  padding: 0 15px 0 30px;
+
+  li:first-of-type {
+    margin-top: 40px;
+  }
+
+  li {
+    margin: 10px 0;
+    padding-left: 10px;
+    // color: #707070;
+    color: #fff;
+    font-size: 16px;
+
+    & > span {
+      position: relative;
+      top: -6px;
+    }
+
+    span.yellow {
+      color: #f3e03a;
+      font-style: italic;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.selection__btn-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+
+  .btn {
+    padding: 8px 35px;
+  }
+}
+
+.selection__btn-wrap--display {
+  opacity: 1;
+  pointer-events: all;
+}

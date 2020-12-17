@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : {
+    "namespace": "android_app",
+    "package_name": "org.chromium.twa.licor43",
+    "sha256_cert_fingerprints": [
+      "BB:C4:65:00:2A:19:13:51:21:43:25:3C:86:EE:44:C4:F7:16:24:32:9F:D1:AC:C6:5B:9D:07:0E:57:0E:A6:C7"
+    ]
+  }
+}]

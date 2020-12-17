@@ -1,0 +1,142 @@
+@import '../base/variables';
+
+.btn {
+  display: inline-block;
+  max-width: 240px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: $color-yellow;
+  color: #1c1c1c;
+  padding: 10px 35px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  border: 3px solid transparent;
+  border-radius: 40px;
+  transition: 0.3s ease;
+  &:hover {
+    background-color: #000;
+    color: $color-yellow;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+.btn--white {
+  background-color: #fff;
+  color: #1c1c1c;
+  border: 2px solid #fff;
+  &:hover {
+    background-color: #1c1c1c;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+}
+.btn--green {
+  background-color: #1db954;
+  color: #fff;
+  border: 2px solid #1db954;
+  &:hover {
+    background-color: #fff;
+    color: #1db954;
+    border: 2px solid #1db954;
+  }
+}
+.btn--invert {
+  background-color: #1c1c1c;
+  color: $color-yellow;
+  border: 3px solid $color-yellow;
+  &:hover {
+    background-color: $color-yellow;
+    color: #1c1c1c;
+  }
+}
+.btn--sign-up {
+  margin-bottom: 10px;
+}
+.btn--facebook {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-weight: normal;
+  background-color: #3b5998;
+  color: #fff;
+  padding: 4px 7px;
+  margin-bottom: 10px;
+
+  img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+  .btn--facebook-text {
+    font-family: 'Roboto', sans-serif;
+    span {
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+    }
+  }
+  &:hover {
+    background-color: #2a3f6d;
+    color: #fff;
+  }
+}
+
+.btn--next {
+  height: 80px;
+  width: 80px;
+  border: 7px solid $color-yellow;
+  border-radius: 100px;
+  background-color: $bg-color;
+  color: $color-yellow;
+  outline: none;
+
+  a {
+    color: $color-yellow;
+  }
+}
+.btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .btn {
+    margin-bottom: 15px;
+  }
+}
+.btn-wrapper--big {
+  margin: 12vh 0 17.5vh;
+  .btn:first-of-type {
+    margin-bottom: 30px;
+  }
+}
+
+.btn--small {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding: 5px 10px;
+  justify-content: center;
+  img {
+    margin-right: 5px;
+    fill: black;
+  }
+}
+.btn--spotify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn--alexa {
+  background-color: #2ba4f0;
+  color: #fff;
+  padding: 13px 35px;
+}
+.btn--whatsapp {
+  background-color: #25d366;
+  color: #fff;
+  padding: 10px 35px;
+}
+.btn--p16 {
+  padding: 16px 35px;
+}
